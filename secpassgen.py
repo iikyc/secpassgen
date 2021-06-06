@@ -44,6 +44,11 @@ def pass_gen():
 		while (i < password_length):
 			password.append(random.choice(allowed_chars))
 			i += 1
+try:
+	pass_gen()
+
+except IndexError:
+	pass
 
 pass_gen()
 
