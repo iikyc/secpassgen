@@ -50,8 +50,6 @@ try:
 except IndexError:
 	pass
 
-pass_gen()
-
 password = "".join(password)
 
 st.header("Output")
